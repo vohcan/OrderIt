@@ -18,20 +18,26 @@ public class DishSelectedAdapter extends RecyclerView.Adapter<DishSelectedAdapte
 
     private List<SelectedDish> dishSelected;
 
-    public static class SelectedViewHolder extends RecyclerView.ViewHolder{
+    public static class SelectedViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         public ImageView imageSelected;
         public TextView nameSelected;
         public TextView priceSelected;
         public TextView complementSelected;
 
 
-        public SelectedViewHolder(View itemView) {
+        public SelectedViewHolder(View itemView)  {
             super(itemView);
             imageSelected = (ImageView) itemView.findViewById(R.id.selected_image);
             nameSelected = (TextView) itemView.findViewById(R.id.selected_name);
             priceSelected = (TextView) itemView.findViewById(R.id.selected_price);
             complementSelected = (TextView) itemView.findViewById(R.id.selected_complement);
 
+        }
+
+        @Override
+        public void onClick(View v) {
+            //que salga alert dialog
+            int position = getLayoutPosition();
         }
     }
 
@@ -47,6 +53,7 @@ public class DishSelectedAdapter extends RecyclerView.Adapter<DishSelectedAdapte
 
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.selected_dish_list, parent, false);
         return new SelectedViewHolder(view);
+
     }
 
     @Override

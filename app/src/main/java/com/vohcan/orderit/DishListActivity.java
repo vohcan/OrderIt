@@ -33,10 +33,11 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import android.util.Log;
 
 import static com.vohcan.orderit.model.Table.items;
 
-public class DishListActivity extends AppCompatActivity {
+public class DishListActivity extends AppCompatActivity  {
     private RecyclerView recycler;
     private RecyclerView.Adapter adapter;
     private RecyclerView.LayoutManager lManager;
@@ -45,9 +46,15 @@ public class DishListActivity extends AppCompatActivity {
     public List<Dish> items;
     public List<Dishes> dishes;
 
+//    private OnDishSelectedListener mOnClickSelected = null;
+
 
     public DishListActivity() {
     }
+
+//    public interface OnDishSelectedListener {
+//        public void onDishSelected(View v, Dish dish)
+//    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +67,13 @@ public class DishListActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
          List<Dish> items = new ArrayList<>();
+
+//        mOnClickSelected = new OnDishSelectedListener() {
+//            public void onDishSelected(View v, Dish dish) {
+//
+//                Log.d("Hemos retornado el plat");
+//            }
+//        };
 
         AsyncTask<Void, Integer, List<Dish>> DishAsyncTask = new AsyncTask<Void, Integer, List<Dish>>() {
 
@@ -308,9 +322,9 @@ public class DishListActivity extends AppCompatActivity {
         return builder.create();
     }
 
-//public interface OnDishClickListener{
-//    public void onDishClick(int position, Dish dish);
-//
-//}
+/*public interface OnDishClickListener{
+    public void onDishClick(int position, Dish dish);
+
+}*/
 
 }

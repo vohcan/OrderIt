@@ -27,6 +27,7 @@ import com.vohcan.orderit.model.SelectedDish;
 import com.vohcan.orderit.model.Table;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class OrderActivity extends AppCompatActivity implements View.OnClickListener {
@@ -43,6 +44,7 @@ public class OrderActivity extends AppCompatActivity implements View.OnClickList
 
     private TextView tableNameOrder;
     private  FloatingActionButton fab;
+
 
 
     @Override
@@ -65,9 +67,9 @@ public class OrderActivity extends AppCompatActivity implements View.OnClickList
         fab = (FloatingActionButton) findViewById(R.id.add_dish_FAB);
         fab.setOnClickListener(this);
 
-        final List<SelectedDish> dishSelected = new ArrayList<>();
+        dishSelected = new LinkedList<>();
 
-        dishSelected.add(new SelectedDish("elvis",12.50,R.drawable.yankee_g, "patatas fritas"));
+        dishSelected.add(new SelectedDish("elvis",12.50, R.drawable.yankee_g, "patatas fritas"));
         dishSelected.add(new SelectedDish("elvis",12.50,R.drawable.yankee_g, "patatas fritas"));
 
 
@@ -126,7 +128,7 @@ public class OrderActivity extends AppCompatActivity implements View.OnClickList
             Log.v("toque", "se ha pulsado cuenta");
             AlertDialog.Builder billDialog = new AlertDialog.Builder(this);
             billDialog.setTitle("Factura");
-//            billDialog.setMessage(String.format("La cuenta es %.2f €.", getBill()));
+            billDialog.setMessage("La cuenta es "+ getBill() +" €");
 
             billDialog.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
                 @Override
@@ -134,7 +136,7 @@ public class OrderActivity extends AppCompatActivity implements View.OnClickList
                     Log.v("toque", "se ha pulsado ok");
                 }
             });
-            //billDialog.setNegativeButton(android.R.string.cancel, null);
+//          billDialog.setNegativeButton(android.R.string.cancel, null);
 
             billDialog.show();
             return true;
@@ -143,6 +145,11 @@ public class OrderActivity extends AppCompatActivity implements View.OnClickList
 
 
     }
-
-
+    public double getBill(){
+        double total = 0.0;
+        for (int i = 0; i< dishSelected.size();i++){
+            total += dishSelected.get(i).getPriceSelected();
+        }
+        return total;
+    }
 }

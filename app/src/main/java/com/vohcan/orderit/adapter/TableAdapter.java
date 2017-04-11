@@ -54,4 +54,5 @@ public class TableAdapter extends BaseAdapter {
 
         return view;
     }
+
 }

@@ -3,6 +3,15 @@
 
     <item
         is-multidex="true"
+        jar="/Users/vohcan/Desktop/orderIt/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/vohcan/Desktop/orderIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_605d904719b685fac61a8edce423a74907941125/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/vohcan/Desktop/orderit_android_kc/OrderIt/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -18,6 +27,15 @@
         revision="25.0.2"
         sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
         <dex dex="/Users/vohcan/Desktop/orderit_android_kc/OrderIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_329b8e7b2a74235a79781186fae2cc4ca53edd2b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vohcan/Desktop/orderIt/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/vohcan/Desktop/orderIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_e745c4612f1c05ed7b867a7e7543f41e0e111765/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -48,6 +66,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/vohcan/Desktop/orderIt/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9b139f36a6e012f183af56e3c55b44c47a52fdb">
+        <dex dex="/Users/vohcan/Desktop/orderIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a99eb46e29096679fd2bd4940fcfef7d31a314b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vohcan/Desktop/orderIt/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/vohcan/Desktop/orderIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_5c4142898bdd6ebcf4d5f23e44d14b34ea21ed5e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/vohcan/Desktop/orderit_android_kc/OrderIt/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -63,6 +99,15 @@
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="/Users/vohcan/Desktop/orderit_android_kc/OrderIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_3c7db5a14559784b193f443e4ef8c7ba0753346f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vohcan/Desktop/orderIt/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/vohcan/Desktop/orderIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_39ff866bfa24d3c16bd50d2b05baace3b9bf7761/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -84,6 +129,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/vohcan/Desktop/orderIt/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/vohcan/Desktop/orderIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_c053cae185a88431bb4f12df85e5fa45121c582a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vohcan/Desktop/orderIt/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/vohcan/Desktop/orderIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_0d673827bac560bd2e9ed432248768cfb273660d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/vohcan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
         jumboMode="true"
         optimize="true"
@@ -99,6 +162,24 @@
         revision="25.0.2"
         sha1="7f2420506110902f033406b25697cf97ee8c38b2">
         <dex dex="/Users/vohcan/Desktop/orderit_android_kc/OrderIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.1.0_f5fb5c9287e0c17f0f7121952cc94777144cda18/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vohcan/Desktop/orderIt/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/vohcan/Desktop/orderIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_33ec0a7d2cc8b0be678e2213ebc71125573623e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vohcan/Desktop/orderIt/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/Users/vohcan/Desktop/orderIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.0_37ebf7bf85916dd2b47b8700250c8f82216ac9fd/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -120,6 +201,33 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/vohcan/Desktop/orderIt/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7f2420506110902f033406b25697cf97ee8c38b2">
+        <dex dex="/Users/vohcan/Desktop/orderIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.1.0_4a969a58035e52884645bf91009f627fc473cddc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vohcan/Desktop/orderIt/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/vohcan/Desktop/orderIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_7f515c3c63530b63cf101c5ee3cb9fc553494b14/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vohcan/Desktop/orderIt/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a60d3e3cf3aa2658c455bf0ddea03c240565270">
+        <dex dex="/Users/vohcan/Desktop/orderIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_14b9742f02011e00673d345f46618be2c05ecba5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/vohcan/Desktop/orderit_android_kc/OrderIt/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -138,12 +246,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/vohcan/Desktop/orderIt/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/Users/vohcan/Desktop/orderIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_34e273caf2e5737e81e53c6f503e647739efa694/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/vohcan/Desktop/orderit_android_kc/OrderIt/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
         <dex dex="/Users/vohcan/Desktop/orderit_android_kc/OrderIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_cc8db575ac1a45d25d07ee15603790959bf394a5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vohcan/Desktop/orderIt/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/Users/vohcan/Desktop/orderIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_53bd015e6025f9a6cfd93837f99677c9aa50d9ab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vohcan/Desktop/orderIt/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/vohcan/Desktop/orderIt/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_6d1f4d0f61d5904ab20b3faf49923af4c18e26af/classes.dex" />
     </item>
 
 </items>

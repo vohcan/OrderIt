@@ -1,5 +1,8 @@
 package com.vohcan.orderit.model;
 
+import com.vohcan.orderit.R;
+
+import java.util.ArrayList;
 import java.util.LinkedList;
 
 /**
@@ -12,14 +15,18 @@ public class SelectedDish {
     private double priceSelected;
     private int imageSelected;
     private String complementSelected;
-    private LinkedList<Dish> selectedDishes;
+    private LinkedList<Dish> dishSelected;
 
-
+//constructor
     public SelectedDish(String nameSelected, double priceSelected, int imageSelected, String complementSelected) {
         this.nameSelected = nameSelected;
         this.priceSelected = priceSelected;
         this.imageSelected = imageSelected;
         this.complementSelected = complementSelected;
+
+
+
+
     }
 
     public String getNameSelected() {
@@ -54,11 +61,9 @@ public class SelectedDish {
         this.complementSelected = complementSelected;
     }
 
-    public double getBill(){
-        double total = 0.0;
-        for (int i = 0; i< selectedDishes.size();i++){
-            total += selectedDishes.get(i).getPrice();
-        }
-        return total;
-    }
+
+
+//    public void setSelectedDishes(LinkedList<Dish> selectedDishes) {
+//        this.selectedDishes = selectedDishes;
+//    }
 }
